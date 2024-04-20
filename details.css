@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.details-header {
+    background-color: #051835;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.details-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-image {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    border: 4px solid #007bff;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.product-info p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.action-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+h2{
+    text-align: center;
+}
+.action-btn:last-child {
+    margin-right: 0;
+}
+
+.action-btn:hover {
+    background-color: #0056b3;
+}
+
+.back-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #dc3545; 
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #c82333; 
+}
+
+
+.details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+    text-align: center;
+    margin-top: 30px;
+}

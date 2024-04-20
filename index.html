@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="login-box">
+        <div id="loginForm">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <button type="button" class="login-button" onclick="validateLogin()">Login</button>
+            <p>Don't have an account? <a href="javascript:void(0);" onclick="toggleRegistration()">Register here</a></p>
+        </div>
+
+        <div id="registrationForm" style="display: none;">
+            <h2>Register</h2>
+            <div class="form-group">
+                <label for="registerUsername">Username</label>
+                <input type="text" id="registerUsername" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+                <label for="registerPassword">Password</label>
+                <input type="password" id="registerPassword" placeholder="Enter your password">
+            </div>
+            <button type="button" class="register-button" onclick="register()">Register</button>
+            <p>Already have an account? <a href="javascript:void(0);" onclick="toggleRegistration()">Login here</a></p>
+        </div>
+
+        <p id="loginStatus"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
